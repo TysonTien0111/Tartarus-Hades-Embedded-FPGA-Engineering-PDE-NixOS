@@ -17,7 +17,7 @@
         ];
 
         shellHook = ''
-          echo "HDL environment loaded!"
+          echo " HDL environment loaded!"
           echo "Verible version: $(verible-verilog-ls --version)"
         '';
       };
